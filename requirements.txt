@@ -30,3 +30,6 @@ MarkupSafe==3.0.2
 
 # Database (PostgreSQL optional)
 psycopg2-binary==2.9.10
+
+# WSGI server
+gunicorn==23.0.0
