@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.env/
+.env*/
+
+# Django stuff
+*.log
+media/
+staticfiles/
+static/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# Byte-compiled / optimized / DLL files
+*$py.class
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage*
+.cache/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Migrations pyc (keep the .py)
+*/migrations/*.pyc
+
+# Local settings
+local_settings.py
+.env.local
+
+# SQLite DB
+*.sqlite3
+
+# Node
+node_modules/
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+*.egg-info/
